@@ -12,7 +12,7 @@ jobs:
         run: echo "varaibale1 value is ${{ vars.variable1 }}"
 
       - name: Tell me a secret!
-        run: echo "api key secret is  value is ${{ secrets.apikey1}}"
+        run: echo "api key secret is  value is ${{ secrets.api_key1}}"
 
       - name: unset secret!
         run: echo "unknown secret is  value is ${{ secrets.doesnotexist}}"
